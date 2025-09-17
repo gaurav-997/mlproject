@@ -1,5 +1,16 @@
 pandas
 numpy 
 seaborn 
+matplotlib
+scikit-learn
+catboost
+xgboost
+Flask
 
--e .
+
+#-e .
+#here e stands for editable and . means current dir 
+#Together, -e . tells pip to install the project in the current directory in editable mode.
+#when we trigger pip install -r requirments.txt then -e . will make the package of the whole project    
+#use :- This means any changes you make to the code in your local folder are immediately reflected when you import and 
+#use the package — no need to reinstall every time you make a change.
